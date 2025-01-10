@@ -1,0 +1,10 @@
+Instead of directly using a complex selector within the `content` property, generate the content using JavaScript and then apply it to the element.  This allows for more complex content manipulation and avoids the limitations of the `content` property's selector handling.  
+
+```javascript
+const element = document.querySelector('.myElement');
+const generatedContent = document.createElement('span');
+generatedContent.textContent = 'This is my dynamically generated content.';
+element.insertBefore(generatedContent, element.firstChild);
+```
+
+This JavaScript code dynamically generates and inserts the content.  This way, complex logic and selectors can be handled effectively.
