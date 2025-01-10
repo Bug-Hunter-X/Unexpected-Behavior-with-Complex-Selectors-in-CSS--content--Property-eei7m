@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug related to the CSS `content` property and its interaction with complex selectors.  The bug occurs when attempting to use a nested or attribute selector within the `content` value. The solution provides a workaround to achieve the desired outcome.
